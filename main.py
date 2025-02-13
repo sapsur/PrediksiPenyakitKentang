@@ -5,7 +5,7 @@ import cv2
 from skimage.feature import local_binary_pattern
 
 # Load model dan label encoder
-model_path = "E:\\Kuliyeah\\Citra\\model_knn.pkl"
+model_path = "model_knn.pkl"
 with open(model_path, "rb") as model_file:
     clf, label_encoder = pickle.load(model_file)
 
